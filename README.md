@@ -31,7 +31,9 @@ This project compares the classification performance of **Logistic Regression** 
 ### 2. Apply PCA (2 Components)
 - Standardized features using `StandardScaler`
 - Applied PCA (`n_components=2`)
-- Visualized 2D projection of classes
+- **Visualized 2D projection of classes:**
+![PC1](https://github.com/user-attachments/assets/4651f958-ee4e-4ae4-9e92-4f261573f569)
+
 
 ### 3. Train-Test Split
 - 80/20 train-test split on PCA-transformed features
@@ -45,8 +47,12 @@ This project compares the classification performance of **Logistic Regression** 
 ### 5. Decision Boundary Visualization
 - Used meshgrid and `contourf` to show class separation
 - Plotted for both models:
-  - **Logistic Regression**
-  - **SVM**
+  - **Logistic Regression:**
+  -  ![PC2-1](https://github.com/user-attachments/assets/22705fe3-54d6-4f9a-b56b-c5f586b6c0c3)
+
+  - **SVM:**
+  - ![PC2-2](https://github.com/user-attachments/assets/14fe3ad9-27ba-4a89-8791-daf5c1f62cc6)
+
 
 ### 6. Model Evaluation
 - Evaluated using:
@@ -69,8 +75,12 @@ This project compares the classification performance of **Logistic Regression** 
 ### 7. Prediction Confidence Visualization
 - Extracted predicted probabilities from both models
 - Created **KDE plots** to visualize:
-  - Confidence in predictions
-  - Distribution of correct vs incorrect predictions
+  - **Confidence in predictions for Logistic Regression:**
+  - ![PC3](https://github.com/user-attachments/assets/617f6214-f434-431e-9aac-f979bd25e802)
+
+  - **Confidence in predictions for SVM:**
+  - ![PC4](https://github.com/user-attachments/assets/831561fc-da07-4b7c-8506-7356f29cccb4)
+
 
 ### 8. Realistic Sample Prediction
 - Queried a new sample: `[5.1, 3.5, 1.4, 0.2]`
